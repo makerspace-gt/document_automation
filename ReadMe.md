@@ -6,4 +6,4 @@ Dieses Repository ist ein Projekt des Vereins Makerspace Gütersloh e. V. zur Au
 
 ## Lizenz
 
-Alle Dateien in diesem Repository sind lizensiert unter der CreativeCommons [CC BY 4.0 Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) CC BY 4.0 Lizenz.
+Alle Dateien in diesem Repository sind lizensiert unter der CreativeCommons [CC BY 4.0 Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de).
