@@ -1,0 +1,110 @@
+---
+params: # Values are passed during rendering
+  TITLE: ""
+  MEMBERS_CSV_FILE: ""
+  CONTRACT_TEXT_FILE: ""
+title: "`r params$TITLE`"
+output:
+  pdf_document:
+    # keep_md: yes # Keeps intermediate Markdown file for debugging purposes
+    # keep_tex: yes # Keeps intermediate Tex file for debugging purposes
+    extra_dependencies:
+        opensans: ["default","scale=0.95"]
+        titlesec: ["small", "center"]
+---
+
+```{r echo=FALSE}
+# Rahmenvertrag zwischen dem Makerspace Gütersloh e. V. und einer Gruppe von Personen
+# @author: Martin Teuber
+```
+
+```{r echo=FALSE}
+# Dieses Skript im Format R Markdown wurde erstellt, um die persönlichen Daten
+# der Urheber aus einer CSV-Datei automatisiert in den Vertrag einfügen zu
+# können, welche zuvor aus dem Programm JVerein, welches der Makerspace
+# Gütersloh e. V. zur Verwaltung seiner Mitglieder nutzt, exportiert wurde.
+# 
+# Dadurch wird es auch ermöglicht, den Vertrag DSGVO-konform zu
+# veröffentlichen, da die Daten und der Vertragstext getrennt vorliegen. Die
+# hier mitveröffentlichte Members.csv Datei enthält Fantasy-Namen und dient zum
+# Testen des Skriptes sowie zur Identifizierung der Spaltennamen.
+#
+# Des Weiteren soll dieses Script all denjenigen als Inspiration dienen, die
+# sich für die Erzeugung von mit Daten angereicherten Dokumenten oder
+# Serienbriefen mittels R Markdown interessieren.
+```
+
+```{r echo=FALSE}
+# Defining constants
+CONTRACT_PARTY_INDENTION <- "2mm"
+SIGNATURE_GAP <- "8mm"
+```
+
+Zwischen
+
+```{r echo=FALSE}
+# Import the holder of rights data exported via JVerein
+members <- read.csv2(params$MEMBERS_CSV_FILE, stringsAsFactors = FALSE,
+    encoding = "UTF-8")
+# Sort holder of rights by name
+members_ordered <-members[order(members$mitglied_name,
+    members$mitglied_vorname, members$mitglied_ort, members$mitglied_plz),]
+# Generate multi line string with all holder of rights names and adresses
+members_string <- ""
+for (i in 1:nrow(members_ordered)){
+    members_string <- paste0(members_string, "\n\\noindent\\hspace*{",
+    CONTRACT_PARTY_INDENTION, "}\n", members_ordered$mitglied_vorname[i], " ",
+    members_ordered$mitglied_name[i], ", ",
+    members_ordered$mitglied_strasse[i], ", ", members_ordered$mitglied_plz[i],
+    " ", members_ordered$mitglied_ort[i], " - nachfolgend Rechteinhaber ", i,
+    " genannt -,  ")
+}
+```
+
+```{r echo=FALSE}
+# Insert holder of rights names and adresses into Markdown file
+```
+`r members_string`
+
+\- gemeinschaftlich nachfolgend die Rechteinhaber genannt -
+
+und dem
+
+\noindent\hspace*{`r CONTRACT_PARTY_INDENTION`}
+Makerspace Gütersloh e. V.  
+\noindent\hspace*{`r CONTRACT_PARTY_INDENTION`}
+c/o Die WEBEREI – Bürgerkiez gGmbH  
+\noindent\hspace*{`r CONTRACT_PARTY_INDENTION`}
+Bogenstraße 1-8  
+\noindent\hspace*{`r CONTRACT_PARTY_INDENTION`} 
+33330 Gütersloh  
+
+\- nachfolgend Empfänger genannt –
+
+```{r echo=FALSE}
+# Insert contract text
+```
+```{r child = params$CONTRACT_TEXT_FILE}
+```
+
+\vspace{`r SIGNATURE_GAP`}
+
+Ort, Datum:
+
+```{r echo=FALSE}
+# Generate multi line string for signature space for each holder of rights
+signature_string <- ""
+for (i in 1:nrow(members)){
+    signature_string <- paste0(signature_string, "\n\n\\vspace{",
+    SIGNATURE_GAP, "}\n\nUnterschrift Rechteinhaber ", i, ":")
+}
+```
+
+```{r echo=FALSE}
+# Insert holder of rights signature lines into Markdown file
+```
+`r signature_string`
+
+\vspace{`r SIGNATURE_GAP`}
+
+Unterschrift Empfänger:

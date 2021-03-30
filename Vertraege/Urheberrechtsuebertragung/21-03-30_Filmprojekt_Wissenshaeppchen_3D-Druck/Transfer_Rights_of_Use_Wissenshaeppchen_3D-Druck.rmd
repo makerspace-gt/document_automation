@@ -1,0 +1,137 @@
+```{r echo=FALSE}
+# VERTRAG ZUR ÜBERTRAGUNG VON NUTZUNGSRECHTEN
+# @author: Martin Teuber
+#
+# Dieser Vertrag wurde erarbeitet, um die Nutzungsrechte für die Werke, welche
+# im Rahmen des Filmprojekts "Wissenshäppchen 3D-Druck" entstanden sind, an
+# den Makerspace Gütersloh e. V. so zu übertragen, dass dieser die Werke unter
+# Creative Commons Lizenzen allen Vereinsmitgliedern und der Allgemeinheit zur
+# Nutzung zur Verfügung stellen kann.
+# 
+# Dieser Vertrag soll auch als Inspiration dienen für Übertragungen von
+# Nutzungsrechten in zukünftigen Projekten des Makerspace Gütersloh e. V..
+# 
+# Da an Verträgen i. allg. kein Urheberrecht erworden werden kann, darf dieser
+# Vertrag von Dritten bearbeitet, vervielfältigt und weiterverbreitet werden
+# und zwar für beliebige Zwecke.
+```
+
+# § 1 Geltungsbereich
+
+```{r echo=FALSE}
+# Hier werden die Werkarten der Werke, die Gegenstand dieses Vertrages sind,
+# vollständig aufgelistet.
+```
+
+(1) Gegenstand dieser Vereinbarung ist die Übertragung von Nutzungsrechten an
+folgenden Werkarten:  
+Filmmaterial (roh sowie bearbeitet), Tonmaterial, Drehbuch, Computer-Dateien
+des Schnitt-Projekts
+
+```{r echo=FALSE}
+# Hier werden die Werke mit Titel vollständig aufgelistet, die Gegenstand
+# dieses Vertrages sind.
+```
+
+(2) Die Übertragung der Nutzungsrechte betrifft insbesondere folgende Werke:
+
+- Drehbuch „Wissenshäppchen 3D-Druck“
+- Tonmaterial „Wissenshäppchen 3D-Druck“
+- Roh-Filmmaterial „Wissenshäppchen 3D-Druck“
+- Geschnittenes Filmmaterial „Wissenshäppchen 3D-Druck“
+- Schnitt-Projektdateien „Wissenshäppchen 3D-Druck“
+
+```{r echo=FALSE}
+# Damit diese Klausel gilt, müssen zwingend alle Urheber der Werke in diesem
+# Vertrag VOLLSTÄNDIG genannten werden und diesen unterzeichnen.
+```
+
+(3) Die Rechteinhaber versichern, dass sie dazu berechtigt sind, die
+vertragsgegenständlichen Nutzungsrechte an den Werken einzuräumen.
+
+# § 2 Nutzungsrechte
+
+(1) Die Nutzungsrechte an den unter §&nbsp;1 Abs.&nbsp;2 benannten Werken der
+Rechteinhaber werden wie folgt übertragen:
+
+```{r echo=FALSE}
+# "einfach" bedeutet, dass die Urheber auch selbst weiterhin die Nutzungsrechte
+# an ihren Werken behalten und somit auch in Zukunft weiteren Parteien
+# Nutzungsrechte übertragen oder Lizenzen vergeben dürfen.
+#
+# Die zeitliche bzw. räumliche Unbeschränktheit ist wohl selbsterklärend.
+```
+
+- einfach
+- zeitlich unbeschränkt
+- räumlich unbeschränkt
+
+```{r echo=FALSE}
+# Hier wird explizit die Absicht bekunded dem Verein das Recht einzuräumen,
+# alle Werke bis auf das Drehbuch unter der CC BY-ND 3.0 DE Lizenz und das
+# Drehbuch unter der CC BY 3.0 DE Lizenz stellen zu dürfen.
+```
+
+(2) Der Empfänger erhält die Erlaubnis, die Nutzungsrechte der unter §&nbsp;1
+Abs.&nbsp;2 benannten Werke, mit Ausnahme des Drehbuchs, unter der Creative
+Commons Lizenz CC&nbsp;BY-ND&nbsp;3.0&nbsp;DE an Dritte zu übertragen. Die
+Werke dürfen somit unbearbeitet unter Namensnennung des Empfängers von Dritten
+vervielfältigt und weiterverbreitet werden und zwar für beliebige Zwecke, sogar
+kommerziell.
+
+(3) Der Empfänger erhält außerdem die Erlaubnis, die Nutzungsrechte des im
+Vertrag benannten Drehbuchs unter der Creative Commons Lizenz
+CC&nbsp;BY&nbsp;3.0&nbsp;DE an Dritte zu übertragen. Das Drehbuch darf somit
+unter Namensnennung des Empfängers von Dritten bearbeitet, vervielfältigt und
+weiterverbreitet werden und zwar für beliebige Zwecke, sogar kommerziell. Im
+Falle einer Abwandlung des Drehbuchs hat jedoch ein Hinweis darauf zu erfolgen,
+dass es sich um eine Abwandlung handelt.
+
+```{r echo=FALSE}
+# Hier werden auch explizit die Nutzungsrechte für unbekannte Nutzungsarten
+# eingeräumt. Dadurch wird dem Verein ermöglicht, die Werke zukünftig auch auf
+# Medien und mit Technologien zu nutzen, die es zum jetzigen Zeitpunkt noch
+# nicht gibt.
+```
+
+(4) Die Nutzungsrechte werden für alle zum Zeitpunkt des Vertragsabschlusses
+bekannten und unbekannten Nutzungsarten eingeräumt.
+
+(5) Der Vertrag und somit die Einräumung der Nutzungsrechte wird mit
+Unterschrift aller Vertragsparteien gültig.
+
+# § 3 Vergütung
+
+```{r echo=FALSE}
+# Die Übertragung von Nutzungsrechten ist laut UrhG nur zulässig, wenn die
+# Urheber angemessen vergütet werden. Da das Fehlen einer Vergütung i. allg.
+# wohl nicht als angemessen gewertet würde, wurde hier extra noch in Abs. 2
+# eine Willensbekundung der Vertragsparteien eingefügt, in der diese das Fehlen
+# einer Vergütung explizit als angemessen zu erachten.
+```
+
+(1) Für die hier beschriebene Übertragung der Nutzungsrechte erfolgt keine
+Vergütung.
+
+(2) Die Vertragsparteien bestätigen hiermit, dass sie diese Vergütung bzw. das
+Fehlen dieser für angemessen halten, da bei dem Filmprojekt, in dessen Rahmen
+die in diesem Vertrag benannten Werke entstanden sind, der Erwerb und die
+Weitergabe von Wissen im Bereich Filmproduktion im Rahmen eines gemeinnützigen
+Vereins im Vordergrund stehen.
+
+```{r echo=FALSE}
+# Die Salvatorische Klausel ist Standard beim Verfassen von Verträgen.
+```
+
+# § 4 Salvatorische Klausel
+
+(1) Soweit eine Bestimmung aus diesem Vertrag ungültig oder undurchsetzbar ist
+oder wird, bleiben die übrigen Bestimmungen aus diesem Vertrag davon unberührt.
+
+(2) An die Stelle der unwirksamen oder undurchführbaren Bestimmung soll
+diejenige wirksame und durchführbare Regelung treten, deren Wirkungen der
+Zielsetzung am nächsten kommen, die die Vertragsparteien mit der unwirksamen
+bzw. undurchführbaren Bestimmung verfolgt haben.
+
+(3) Die vorstehenden Bestimmungen gelten entsprechend für den Fall, dass sich
+der Vertrag als lückenhaft erweist.
