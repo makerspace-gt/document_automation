@@ -64,6 +64,7 @@ for (i in 1:nrow(members_ordered)){
 ```{r echo=FALSE}
 # Insert holder of rights names and adresses into Markdown file
 ```
+
 `r members_string`
 
 \- gemeinschaftlich nachfolgend die Rechteinhaber genannt -
@@ -76,7 +77,7 @@ Makerspace Gütersloh e. V.
 c/o Die WEBEREI – Bürgerkiez gGmbH  
 \noindent\hspace*{`r CONTRACT_PARTY_INDENTION`}
 Bogenstraße 1-8  
-\noindent\hspace*{`r CONTRACT_PARTY_INDENTION`} 
+\noindent\hspace*{`r CONTRACT_PARTY_INDENTION`}
 33330 Gütersloh  
 
 \- nachfolgend Empfänger genannt –
@@ -84,6 +85,7 @@ Bogenstraße 1-8
 ```{r echo=FALSE}
 # Insert contract text
 ```
+
 ```{r child = params$CONTRACT_TEXT_FILE}
 ```
 
@@ -103,6 +105,7 @@ for (i in 1:nrow(members)){
 ```{r echo=FALSE}
 # Insert holder of rights signature lines into Markdown file
 ```
+
 `r signature_string`
 
 \vspace{`r SIGNATURE_GAP`}
