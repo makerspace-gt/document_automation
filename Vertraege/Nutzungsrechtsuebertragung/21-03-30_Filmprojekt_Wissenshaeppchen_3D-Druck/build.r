@@ -4,7 +4,7 @@
 
 WORKING_DIR <- paste0('Nutzungsrechtsuebertragung/',
   '21-03-30_Filmprojekt_Wissenshaeppchen_3D-Druck/')
-TITLE <- 'Vertrag ï¿½ber die ï¿½bertragung von Nutzungsrechten'
+TITLE <- 'Vertrag über die Übertragung von Nutzungsrechten'
 CONTRACT_TEXT_FILE <- paste0(
   WORKING_DIR, 'Transfer_Rights_of_Use_Wissenshaeppchen_3D-Druck.rmd')
 MEMBERS_CSV_FILE <- paste0(WORKING_DIR, 'Members.csv')
