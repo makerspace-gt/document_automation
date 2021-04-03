@@ -3,14 +3,14 @@ params: # Values are passed during rendering
   TITLE: ""
   MEMBERS_CSV_FILE: ""
   CONTRACT_TEXT_FILE: ""
-title: "`r params$TITLE`"
+  POSTSCRIPT: ""
 output:
   pdf_document:
     # keep_md: yes # Keeps intermediate Markdown file for debugging purposes
     # keep_tex: yes # Keeps intermediate Tex file for debugging purposes
     extra_dependencies:
         opensans: ["default","scale=0.95"]
-        titlesec: ["small", "center"]
+        titlesec: ["medium", "center"]
 ---
 
 ```{r echo=FALSE}
@@ -40,6 +40,10 @@ CONTRACT_PARTY_INDENTION <- "2mm"
 SIGNATURE_GAP <- "8mm"
 ```
 
+# `r params$TITLE`
+
+\vspace{`r SIGNATURE_GAP`}
+
 Zwischen
 
 ```{r echo=FALSE}
@@ -53,11 +57,11 @@ members_ordered <-members[order(members$mitglied_name,
 members_string <- ""
 for (i in 1:nrow(members_ordered)){
     members_string <- paste0(members_string, "\n\\noindent\\hspace*{",
-    CONTRACT_PARTY_INDENTION, "}\n", members_ordered$mitglied_vorname[i], " ",
-    members_ordered$mitglied_name[i], ", ",
-    members_ordered$mitglied_strasse[i], ", ", members_ordered$mitglied_plz[i],
-    " ", members_ordered$mitglied_ort[i], " - nachfolgend Rechteinhaber ", i,
-    " genannt -,  ")
+        CONTRACT_PARTY_INDENTION, "}\n", members_ordered$mitglied_vorname[i], " ",
+        members_ordered$mitglied_name[i], ", ",
+        members_ordered$mitglied_strasse[i], ", ", members_ordered$mitglied_plz[i],
+        " ", members_ordered$mitglied_ort[i], " - nachfolgend Rechteinhaber ", i,
+        " genannt -,  ")
 }
 ```
 
@@ -111,3 +115,14 @@ for (i in 1:nrow(members)){
 \vspace{`r SIGNATURE_GAP`}
 
 Unterschrift Empfänger:
+
+```{r echo=FALSE}
+# Generate postscript if transfered
+postscript_string <- ""
+if (!(POSTSCRIPT=="")){
+    postscript_string <- paste0("\n\n\\vspace{",
+    SIGNATURE_GAP, "}\n\n", POSTSCRIPT)
+}
+```
+
+`r postscript_string`

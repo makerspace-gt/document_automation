@@ -16,7 +16,7 @@
 # und zwar für beliebige Zwecke.
 ```
 
-# § 1 Geltungsbereich
+## § 1 Geltungsbereich
 
 ```{r echo=FALSE}
 # Hier werden die Werkarten der Werke, die Gegenstand dieses Vertrages sind,
@@ -49,9 +49,7 @@ des Schnitt-Projekts
 (3) Die Rechteinhaber versichern, dass sie dazu berechtigt sind, die
 vertragsgegenständlichen Nutzungsrechte an den Werken einzuräumen.
 
-\pagebreak
-
-# § 2 Nutzungsrechte
+## § 2 Nutzungsrechte
 
 (1) Die Nutzungsrechte an den unter §&nbsp;1 Abs.&nbsp;2 benannten Werken der
 Rechteinhaber werden wie folgt übertragen:
@@ -102,7 +100,7 @@ bekannten und unbekannten Nutzungsarten eingeräumt.
 (5) Der Vertrag und somit die Einräumung der Nutzungsrechte wird mit
 Unterschrift aller Vertragsparteien gültig.
 
-# § 3 Vergütung
+## § 3 Vergütung
 
 ```{r echo=FALSE}
 # Die Übertragung von Nutzungsrechten ist laut UrhG nur zulässig, wenn die
@@ -125,7 +123,7 @@ Vereins im Vordergrund stehen.
 # Die Salvatorische Klausel ist Standard beim Verfassen von Verträgen.
 ```
 
-# § 4 Salvatorische Klausel
+## § 4 Salvatorische Klausel
 
 (1) Soweit eine Bestimmung aus diesem Vertrag ungültig oder undurchsetzbar ist
 oder wird, bleiben die übrigen Bestimmungen aus diesem Vertrag davon unberührt.

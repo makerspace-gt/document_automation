@@ -1,5 +1,5 @@
 @echo off
-rem Builds for Transfer_Rights_of_Use_Wissenshaeppchen_3D-Druck.rmd
+rem Builds PDF for Transfer_Rights_of_Use_Wissenshaeppchen_3D-Druck.rmd
 rem @author: Martin Teuber
 
 call ..\..\..\Systemvorraussetzungen\Windows\scripts\findR.bat
