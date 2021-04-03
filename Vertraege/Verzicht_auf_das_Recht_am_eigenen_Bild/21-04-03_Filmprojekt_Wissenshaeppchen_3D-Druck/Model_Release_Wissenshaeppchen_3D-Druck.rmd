@@ -1,0 +1,56 @@
+```{r echo=FALSE}
+# VERTRAG ZUM VERZICHT AUF DAS RECHT AM EIGENEN BILD
+# @author: Martin Teuber
+#
+# Dieser Vertrag wurde erarbeitet zum Verzicht der Darsteller auf das Recht am
+# eigenen Bild für die Filmaufnahmen, welche im Rahmen des Filmprojekts
+# "Wissenshäppchen 3D-Druck" entstanden sind, so dass der Makerspace Gütersloh
+# e. V. die Filmaufnahmen unter der Creative Commons Lizenzen allen
+# Vereinsmitgliedern und der Allgemeinheit zur Nutzung zur Verfügung stellen
+# kann.
+# 
+# Dieser Vertrag soll auch als Inspiration dienen für den Verzicht auf die
+# Rechte am eigenen Bild in zukünftigen Projekten des Makerspace Gütersloh
+# e. V.
+# 
+# Da an Verträgen i. allg. kein Urheberrecht erworden werden kann, darf dieser
+# Vertrag von Dritten bearbeitet, vervielfältigt und weiterverbreitet werden
+# und zwar für beliebige Zwecke.
+```
+
+Die folgende Einwilligung in die Vereinbarung über die Nutzung von
+Filmaufnahmen nach §&nbsp;22 KunstUrhG (Recht am eigenen Bild, siehe unten)
+ist nicht frei widerruflich, jedenfalls nach Ansicht des OLG Düsseldorf, Urteil
+vom 24.&nbsp;Mai&nbsp;2011, Az.&nbsp;I-20 U&nbsp;39/11.
+
+Der Rechteinhaber versichert über 18 Jahre alt zu sein und verzichtet auf
+Honorarzahlungen in jeglicher Form. Der Rechteinhaber erhebt keinerlei
+Ansprüche an der Nutzung der Filmaufnahmen durch den Empfänger oder durch
+Dritte, welche die Filmaufnahmen unter der Creative Commons
+CC&nbsp;BY-ND&nbsp;3.0&nbsp;DE Lizenz nutzen.
+
+Der Rechteinhaber räumt dem Empfänger unentgeltlich sowie unwiderruflich,
+räumlich und zeitlich unbeschränkt, das Recht zur Verwertung für alle in
+Betracht kommenden Nutzungszwecke, der am 06.&nbsp;März&nbsp;2021 im Rahmen
+des Projekts "Wissenshäppchen 3D-Druck" gemachten Filmaufnahmen, in einer
+unveränderten oder veränderten Form ein. Inhaltlich umfasst das Recht,die
+Nutzung für das Projekt "Wissenshäppchen 3D-Druck", einschließlich der
+öffentlichen Aufführung und des lizensierens der Filmaufnahmen und der im
+Projekt "Wissenshäppchen 3D-Druck" unter Nutzung der Filmaufnahmen entstandenen
+Werke unter der Creative Commons CC&nbsp;BY-ND&nbsp;3.0&nbsp;DE Lizenz zur
+Nutzung durch Dritte. Die Filmaufnahmen und die daraus entstandenen Werke
+dürfen somit unbearbeitet unter Namensnennung des Empfängers von Dritten
+vervielfältigt und weiterverbreitet werden und zwar für beliebige Zwecke, sogar
+kommerziell.
+
+```{r echo=FALSE}
+# Die Salvatorische Klausel ist Standard beim Verfassen von Verträgen.
+```
+
+Soweit eine Bestimmung aus dieser Erklärung ungültig oder undurchsetzbar ist
+oder wird, bleiben die übrigen Bestimmungen aus dieser Erklärung davon
+unberührt. An die Stelle der unwirksamen oder undurchführbaren Bestimmung soll
+diejenige wirksame und durchführbare Regelung treten, deren Wirkungen der
+Zielsetzung am nächsten kommen, die die Erklärungsparteien mit der unwirksamen
+bzw. undurchführbaren Bestimmung verfolgt haben. Die vorstehenden Bestimmungen
+gelten entsprechend für den Fall, dass sich der Vertrag als lückenhaft erweist.
